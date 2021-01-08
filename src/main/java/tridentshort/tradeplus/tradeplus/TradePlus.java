@@ -6,8 +6,7 @@ public class TradePlus implements ModInitializer
 {
     public void onInitualize()
     {
-
-
+        ModItems.init();
 
     }
 
