@@ -4,13 +4,12 @@ import net.fabricmc.api.ModInitializer;
 
 public class TradePlus implements ModInitializer
 {
-    public void onInitualize()
+    @Override
+    public void onInitialize()
     {
         ModItems.init();
 
     }
-
-
 
 
 }
