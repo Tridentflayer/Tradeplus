@@ -8,6 +8,8 @@ public class TradePlus implements ModInitializer
     public void onInitialize()
     {
         ModItems.init();
+        ModVillagerProfessions.init();
+        ModTradeBuilder.addTrades();
 
     }
 

@@ -11,17 +11,17 @@ import tridentshort.tradeplus.village.VillagerProfessionRegistry;
 public class ModVillagerProfessions
 {
     //Profession type name variable
-    public static final VillagerProfession BeeKeeper;
+    public static VillagerProfession BeeKeeper;
 
 
     //Point of Interest for professions
-    public static final PointOfInterestType BeeKeeperPOI;
+    public static PointOfInterestType BeeKeeperPOI;
 
 
-    static
+    public static void init()
     {
         //Register POI of profession
-        BeeKeeperPOI = PointOfInterestRegistry.register(new PointOfInterestTypeCustom("beekeeper_poi", PointOfInterestTypeCustom.getAllStatesOf(Blocks.BEEHIVE),1,1));
+        BeeKeeperPOI = PointOfInterestRegistry.register(new PointOfInterestTypeCustom("beekeeper_poi", PointOfInterestTypeCustom.getAllStatesOf(Blocks.BEEHIVE),1,48));
 
 
 
