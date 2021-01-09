@@ -1,0 +1,5 @@
+accessWidener v1 named
+accessible method net/minecraft/village/VillagerType <init> (Ljava/lang/String;)V
+extendable class net/minecraft/village/VillagerType
+accessible method net/minecraft/village/VillagerType BIOME_TO_TYPE Ljava/util/Map;
+accessible field net/minecraft/village/VillagerType BIOME_TO_TYPE Ljava/util/Map;
